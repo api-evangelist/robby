@@ -1,7 +1,25 @@
 aid: robby
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/robby.png
 name: Robby
-description: Robby is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Robby is an AI-powered growth and job-documentation platform for home-services
+  businesses, focused on HVAC contractors. It automates job documentation and paperwork
+  for technicians so they can focus on servicing equipment and talking to customers,
+  combines customer and third-party data to surface new leads daily, equips technicians
+  with talking points to increase sales, and gives management a dashboard to monitor
+  the revenue opportunities captured from every visit. Robby is an early-stage Y Combinator
+  (Winter 2026) startup that currently publishes a marketing site, blog, and legal
+  pages but no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/robby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Home Services
+- HVAC
+- Field Service
+- Artificial Intelligence
+- Lead Generation
+- SaaS
+- Y Combinator
 apis: []
+common:
+- type: TrustCenter
+  url: security/robby-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/robby-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.tryrobby.com/security
+- type: DomainSecurity
+  url: security/robby-domain-security.yml
+- type: Website
+  url: https://tryrobby.com
+- type: Blog
+  url: https://tryrobby.com/blog
+- type: PrivacyPolicy
+  url: https://tryrobby.com/privacy
+- type: TermsOfService
+  url: https://tryrobby.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

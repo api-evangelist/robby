@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.tryrobby.com/security
+url: https://www.tryrobby.com/security
+# NOTE: Robby holds NO industry certifications of its own as of this pass.
+# The /security page states Robby is "pursuing SOC 2 Type II" (in progress, not
+# certified). ISO 27001 / SOC 2 are cited only in reference to Robby's
+# subprocessors' data centers, not Robby itself. Do NOT emit a `Compliance`
+# pointer and do NOT list held certifications here.
+certifications: []
+certifications_in_progress:
+- SOC 2 Type II
+notes: Security/compliance page publishes an encryption in-transit/at-rest posture,
+  a subprocessor statement, and a responsible-disclosure security contact
+  (security@tryrobby.com). No held certifications; SOC 2 Type II is in progress.
+evidence:
+- source: https://www.tryrobby.com/security
+  keywords:
+  - pursuing soc 2 type ii
+  - responsible disclosure
+  - security@tryrobby.com
